@@ -8,7 +8,7 @@
         }
       },
       "color": {
-        "value": "#000000"
+        "value": ["#00f541","#2828e0","#c90a14","#000000","#e310b9"]
       },
       "shape": {
         "type": "circle",
@@ -72,11 +72,11 @@
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "bubble"
         },
         "onclick": {
           "enable": true,
-          "mode": "bubble"
+          "mode": "repulse"
         },
         "resize": true
       },
@@ -95,8 +95,8 @@
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
-          "duration": 0.4
+          "distance": 200,
+          "duration": 0.2
         },
         "push": {
           "particles_nb": 4
