@@ -1,7 +1,7 @@
 {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 3,
         "density": {
           "enable": true,
           "value_area": 400
@@ -11,7 +11,7 @@
         "value": ["#00f541","#2828e0","#c90a14","#000000","#e310b9"]
       },
       "shape": {
-        "type": "circle",
+        "type": "edge",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -36,11 +36,11 @@
         }
       },
       "size": {
-        "value": 3,
+        "value": 30,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 80,
+          "speed": 10,
           "size_min": 0.1,
           "sync": false
         }
@@ -54,11 +54,11 @@
       },
       "move": {
         "enable": true,
-        "speed": 12,
+        "speed": 5,
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "bounce": false,
         "attract": {
           "enable": false,
@@ -71,11 +71,11 @@
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "bubble"
+          "enable": false,
+          "mode": "grab"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "resize": true
